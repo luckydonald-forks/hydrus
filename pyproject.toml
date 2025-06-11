@@ -42,6 +42,9 @@ dependencies = [
 [tool.setuptools]
 packages = ["hydrus"]
 
+[tool.setuptools.packages.find]
+include = ["hydrus"]
+
 [tool.uv]
 default-groups = [ "mpv-new", "opencv-new", "other-normal", "qt6-new" ]
 conflicts = [
