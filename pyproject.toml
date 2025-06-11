@@ -39,9 +39,6 @@ dependencies = [
     "pywin32 ; sys_platform == 'win32'",
 ]
 
-[tool.setuptools]
-packages = ["hydrus"]
-
 [tool.setuptools.packages.find]
 include = ["hydrus"]
 
