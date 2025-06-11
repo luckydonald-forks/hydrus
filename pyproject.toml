@@ -39,6 +39,9 @@ dependencies = [
     "pywin32 ; sys_platform == 'win32'",
 ]
 
+[tool.setuptools]
+packages = ["hydrus"]
+
 [tool.uv]
 default-groups = [ "mpv-new", "opencv-new", "other-normal", "qt6-new" ]
 conflicts = [
