@@ -40,7 +40,7 @@ dependencies = [
 ]
 
 [tool.setuptools.packages.find]
-include = ["hydrus"]
+include = ["hydrus*"]
 
 [tool.uv]
 default-groups = [ "mpv-new", "opencv-new", "other-normal", "qt6-new" ]
